@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/family"
+    tools:context=".MainActivity">
+    <!--image from dreamstime.com-->
+
+    <ImageView
+        android:id="@+id/kids_circle"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shadow"
+        android:elevation="10dp"
+        android:src="@drawable/children" />
+     <!--image from freepng.com-->
+
+    <TextView
+        android:id="@+id/koinonia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kids_circle"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/koinonia_homeschool_co_op"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/koinonia"
+        android:layout_marginBottom="12dp"
+        android:text="Classes - Fieldtrips - Playgroups"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+        android:text="@string/join_us_monday_afternoons_n12_30_3_00"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/details"
+        android:layout_marginTop="12dp"
+        android:text="@string/address"
+        android:textAlignment="center" />
+
+
+</RelativeLayout>

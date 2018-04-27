@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Koinonia co-op</string>
+    <string name="koinonia_homeschool_co_op">Koinonia Homeschool Co-op</string>
+    <string name="join_us_monday_afternoons_n12_30_3_00">Join us Monday afternoons 12:30 - 3:00</string>
+    <string name="classes_fieldtrips_and_playgroups">Classes, fieldtrips and playgroups</string>
+    <!-- referenced https://stackoverflow.com/questions/18938403/how-to-preserve-line-breaks-in-xml-string-resources-in-android
+     as well as advice from mentor-->
+    <string name="address">
+    5600 N Locan, Fresno
+        \nor
+        \nCall 559-221-7715</string>
+
+</resources>
